@@ -1,0 +1,2 @@
+1: Flash eeprom
+2: ping 8.8.8.8
