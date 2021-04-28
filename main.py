@@ -55,7 +55,9 @@ def updateProfile(profileFound):
     profileUI.textEdit_4.setText(profileFound['gender'])
     profileUI.textEdit_5.setText(profileFound['class'])
 def readEEPROM():
-    print(write_read("read"))
+    val = write_read('1')
+    manager_UI.textEdit_3.append('Data:\n' + val)
+    print(val)
 def hideProfile():
     profileForm.hide()
 
